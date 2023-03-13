@@ -73,7 +73,7 @@ const Portfolio = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Creative work</p>
+        <p className={`${styles.sectionSubText} `}>My creative work</p>
         <h2 className={`${styles.sectionHeadText}`}>Portfolio.</h2>
       </motion.div>
 
