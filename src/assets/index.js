@@ -27,7 +27,7 @@ import threejs from "./tech/threejs.svg";
 
 import gaminggalaxy from "./company/gaminggalaxy.png";
 import unvault from "./company/unvault.png";
-import pickup from "./company/pickup.png";
+import pickup from "./company/Pickup.png";
 import uncc from "./company/uncc.png";
 
 import carrent from "./carrent.png";
