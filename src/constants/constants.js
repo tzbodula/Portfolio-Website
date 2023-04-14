@@ -223,16 +223,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Gaming Galaxy",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Fullstack application that uses ReactJS for a frontend, and Next.JS as a backend. One of my first ever personal react projects, and it's one that will always hold a special place in my heart.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "nextjs",
           color: "green-text-gradient",
         },
         {
@@ -241,10 +241,10 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/tzbodula/gaming-galaxy-website",
     },
     {
-      name: "Job IT",
+      name: "Pickup Mobile",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -265,7 +265,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Rewards Program",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
