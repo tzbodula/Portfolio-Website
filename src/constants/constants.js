@@ -1,34 +1,31 @@
-import {
-    premiere,
-    react,
-    node,
-    photoshop,
-    tailwindcss,
-    nextjs,
-    python,
-    graph,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    unvault,
-    gaminggalaxy,
-    uncc,
-    pickup,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
-  
+import photoshop from "../assets/photoshop.png";
+import premiere from "../assets/premiere.png";
+import tailwindcss from "../assets/tailwind.png";
+import node from "../assets/node.png";
+import nextjs from "../assets/nextjs.png";
+import react from "../assets/react.png";  
+import python from "../assets/python.png";
+import graph from "../assets/graph.png";
+import html from "../assets/tech/html.png";
+import css from "../assets/tech/css.png";
+import javascript from "../assets/tech/javascript.png";
+import typescript from "../assets/tech/typescript.png";
+import redux from "../assets/tech/redux.png";
+import tailwind from "../assets/tech/tailwind.png";
+import nodejs from "../assets/tech/nodejs.png";
+import mongodb from "../assets/tech/mongodb.png";
+import threejs from "../assets/tech/threejs.svg";
+import git from "../assets/tech/git.png";
+import figma from "../assets/tech/figma.png";
+import docker from "../assets/tech/docker.png";
+import gaminggalaxy from "../assets/company/gaminggalaxy.png";
+import unvault from "../assets/company/unvault.png";
+import pickup from "../assets/company/pickup.png";
+import uncc from "../assets/company/uncc.png";
+import carrent from "../assets/carrent.png";
+import jobit from "../assets/jobit.png";
+import tripguide from "../assets/tripguide.png";
+
   export const navLinks = [
     {
       id: "about",
@@ -103,7 +100,7 @@ import {
     },
     {
       name: "React JS",
-      icon: reactjs,
+      icon: react,
     },
     {
       name: "Redux Toolkit",
