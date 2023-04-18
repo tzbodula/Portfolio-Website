@@ -40,8 +40,8 @@ import tripguide from "../assets/tripguide.png";
       title:"Portfolio",
     },
     {
-      id: "contact",
-      title: "Contact",
+      id:"contact",
+      title:"Contact",
     },
   ];
   
@@ -238,40 +238,40 @@ import tripguide from "../assets/tripguide.png";
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/tzbodula/gaming-galaxy-website",
+      source_code_link: "https://gaminggalaxy.gg",
     },
     {
       name: "Pickup Mobile",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Mobile application that allows users to schedule pickup games such as soccer, basketball, baseball and more with strangers. Uses react-native for the frontend, and flask for the backend and uses expo to allow the app to be developed on both android and iOS.",
+      tags: [
+        {
+          name: "reactnative",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "expo",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/tzbodula/pickup/",
+    },
+    {
+      name: "Rewards Program",
+      description:
+        "A program built to handle the following prompt: A retailer offers a rewards program to its customers, awarding points based on each recorded purchase. A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent over $50 in each transaction",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Rewards Program",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
@@ -280,7 +280,7 @@ import tripguide from "../assets/tripguide.png";
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/tzbodula/rewards-program",
     },
   ];
 
